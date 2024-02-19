@@ -1,0 +1,54 @@
+/*{
+border:1px solid black;
+}*/
+span{
+display:block;
+width:100%;
+}
+h4{
+background-color:orange;
+border-radius:25px;
+padding:6px;
+}
+.name{
+display:flex;
+justify-content:center;
+}
+.name h1,h4{
+font-family:serif;
+margin:0;
+
+}
+.links ul li a{
+display:flex;
+align-items:center;
+color:green;
+}
+.links ul{
+list-style:none;
+display:flex;
+justify-content:space-around;
+font-size:15px;
+}
+.pdetail{
+width:30vw;
+height:100vh;
+}
+.pdetail,.feats{
+float:left;
+}
+.feats::before {
+float:left;
+content:"";
+width:1vw;
+height:100vh;
+background-color:red;
+}
+.feats{
+width:60vw;
+height:100vh;
+}
+.feats a{
+color:green;
+font-size:14px;
+}
